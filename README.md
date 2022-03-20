@@ -9,11 +9,13 @@ work with any BT adapter/breakout that uses a serial interface.
 
 The client uses the pybluez python lib and BT Serial Port Profile, which need to be installed and enabled respectively.
 
-###Enable Serial Port Profile (SPP)
+### Enable Serial Port Profile (SPP)
+
 [Source for setting up SPP on Raspberry Pi](https://scribles.net/setting-up-bluetooth-serial-port-profile-on-raspberry-pi/)
 
 The relevant steps from this guide:
-(Note: I prefer _vim_ for text file editing but the default is _nano_. Substitute your favorite text editor.)
+
+(Note: I prefer *vim* for text file editing but the default is *nano*. Substitute your favorite text editor.)
 
 1.  Open the service config file.
 ```
@@ -51,4 +53,4 @@ sudo apt-get install bluetooth bluez-utils blueman bluez
 Pairing the BT module is also necessary, but will require you to configure a unique name for the device, 
 or learn it's MAC address.
 
-#TODO: layout these steps
+# TODO: layout these steps
